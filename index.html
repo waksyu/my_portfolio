@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>waksyu's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="fade-in">
+            <h1>About Me</h1>
+            <p>Geminiを活用して、Vibeコーディングに励んでいます。</p>
+            <a href="https://github.com/waksyu" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+        </header>
+
+        <main>
+            <section id="works" class="fade-in">
+                <h2>Works</h2>
+                <div class="works-grid">
+                    <!-- 作品1 -->
+                    <article class="work-card">
+                        <a href="https://waksyu.github.io/emoji_generator/" target="_blank" rel="noopener noreferrer">
+                            <div class="card-front">
+                                <span class="card-emoji">🎨</span>
+                            </div>
+                            <div class="card-overlay">
+                                <h3>絵文字ジェネレーター</h3>
+                                <p class="description">Slack用の文字で構成される絵文字を作成するツールです。</p>
+                                <p class="tech">JavaScript, HTML/CSS</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- 作品2 -->
+                    <article class="work-card">
+                        <a href="https://waksyu.github.io/baby_schedule/" target="_blank" rel="noopener noreferrer">
+                            <div class="card-front">
+                                <span class="card-emoji">👶</span>
+                            </div>
+                            <div class="card-overlay">
+                                <h3>赤ちゃんスケジュール</h3>
+                                <p class="description">赤ちゃんの1日の行動予定を作成します。</p>
+                                <p class="tech">JavaScript, HTML/CSS</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- 作品3 -->
+                    <article class="work-card">
+                        <a href="https://script.google.com/macros/s/AKfycbzKiy4Sj3Cm-EuRCahERAyfhM7P8AE3BHQQH3qTeAn0uR9PRVrKLlHEVnyXzu7CxSS9/exec" target="_blank" rel="noopener noreferrer">
+                             <div class="card-front">
+                                <span class="card-emoji">🎁</span>
+                            </div>
+                            <div class="card-overlay">
+                                <h3>ギフトトラッカー</h3>
+                                <p class="description">日々のいただきものやお返しを記録します。<br><small>※権限のある方のみ閲覧できます。</small></p>
+                                <p class="tech">GAS, Google SpreadSheet</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- 作品4 -->
+                    <article class="work-card">
+                        <a href="https://github.com/waksyu/prezen_package" target="_blank" rel="noopener noreferrer">
+                             <div class="card-front">
+                                <span class="card-emoji">💻</span>
+                            </div>
+                            <div class="card-overlay">
+                                <h3>スライドジェネレーター</h3>
+                                <p class="description">Gemini CLIを活用したスライドの自動作成ツールです。<br><small>※非公開で運用しています。</small></p>
+                                <p class="tech">Gemini CLI, GAS, JavaScript</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="fade-in">
+            <a href="https://github.com/waksyu" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <p>&copy; 2025 waksyu</p>
+        </footer>
+    </div>
+</body>
+</html>
